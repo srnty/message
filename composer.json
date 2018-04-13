@@ -1,0 +1,29 @@
+{
+    "name": "srnty/message",
+    "description": "Message Implementation based on PSR-7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Gerassimov",
+            "email": "gerasimov.v.s@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "@alpha"
+    },
+    "autoload": {
+        "psr-4": {
+            "Srnty\\Message\\": "src/"
+        }
+    },
+    "keywords": [
+        "srnty",
+        "psr",
+        "psr-7",
+        "message"
+    ]
+}
